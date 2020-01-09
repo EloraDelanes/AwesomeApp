@@ -157,12 +157,35 @@ p{
 }
 #sec_3{
     display: flex;
+    .gch_s2_same{
+        @include colonne(40px);
+        margin: 80px;
+    }  
 }
 #sec_4{
-    display: flex;
+
+    @include colonne(20px);
+    .card_s41{
+        display: flex;
+        .card_s4{
+            padding-top: 20px;
+            width: 250px;
+            height: 400px;
+            color: white;
+            background-color: $grisc;
+            box-shadow: 10px 5px 5px $fndboite;
+            border-radius: 5%;
+            margin: 20px;
+            p{
+                color: white;
+            }
+        }
+    }
+
 }
 #sec_5{
-    display: flex;
+
+    @include colonne(20px);
 }
 #sec_6{
     display: flex;

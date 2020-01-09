@@ -163,13 +163,39 @@ p {
 #sec_3 {
   display: flex;
 }
+#sec_3 .gch_s2_same {
+  padding: 40px;
+  flex-direction: row;
+  text-align: center;
+  margin: 80px;
+}
 
 #sec_4 {
+  padding: 20px;
+  flex-direction: row;
+  text-align: center;
+}
+#sec_4 .card_s41 {
   display: flex;
+}
+#sec_4 .card_s41 .card_s4 {
+  padding-top: 20px;
+  width: 250px;
+  height: 400px;
+  color: white;
+  background-color: #616163;
+  box-shadow: 10px 5px 5px #20202C;
+  border-radius: 5%;
+  margin: 20px;
+}
+#sec_4 .card_s41 .card_s4 p {
+  color: white;
 }
 
 #sec_5 {
-  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  text-align: center;
 }
 
 #sec_6 {
