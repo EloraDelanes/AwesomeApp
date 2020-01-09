@@ -1,2 +1,176 @@
 @import "variables.scss";
 @import "mixin.scss";
+
+body{
+    background-color: $back;
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+    color: white;
+}
+p{
+    color: $grisc;
+}
+.btn_degra{
+    background-image: $lineargrad;
+    color: white;
+    border: none;
+    box-shadow: 40px 40px 40px 40px $lineargrad;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+.btn_bnc{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5%;
+    padding: 10px;
+}
+.btn_vert{
+    background-color: rgba(3, 110, 73, 0.541);
+    color: $vert;
+    border: none;
+    border-radius: 5%;
+    padding: 5px;
+}
+.bandeau{
+    background-color: $transpb;
+}
+.navBar{
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        li{
+            position: relative;
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 40px;
+        }
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-left:20px ;
+    }
+    .t_logo{
+        margin-left: -600px;
+    }
+    a{
+        list-style: none;
+        color: white;
+    }
+    .nav-link_contact{
+        border: white solid 2px;
+        border-radius: 5%;
+        padding: 10px;
+    }
+}
+
+.header{
+    display: flex;
+    .gch_head{
+        @include colonne(20px);
+        h1{
+            padding-bottom: 10px;
+            padding-top: 50px;
+        }
+    }
+
+    .drt_head{
+        img{
+            width: 800px;
+            height: 500px;
+        }
+    }
+}
+#sec_1{
+    display: flex;
+    .drt_s1{
+        @include colonne(40px);
+        h2{
+            padding-bottom: 10px;
+            padding-top: 60px;
+        }
+    }
+    .gch_s1{
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        .l1{
+           margin-left: 10px;
+        }
+        .l2{
+            margin-right: 10px;
+        }
+        .card_brand{
+            padding: 10px;
+            img{
+                width: 150px;
+                height: 120px;
+                background-color: $grisc;
+                box-shadow: 10px 5px 5px $fndboite;
+                border-radius: 5%;
+            }
+        
+        }
+    }
+}
+
+#sec_2{
+    display: flex;
+    .drt_s2{
+        display: flex;
+        @include colonne(40px);
+        .l1{
+            margin: 40px;
+        }
+        .card_s2{
+            padding-top: 20px;
+            width: 250px;
+            height: 350px;
+            color: white;
+            background-color: $grisc;
+            box-shadow: 10px 5px 5px $fndboite;
+            border-radius: 5%;
+            margin: 20px;
+            p{
+                color: white;
+            }
+        }
+    }
+    .gch_s2_same{
+        @include colonne(40px);
+        margin: 80px;
+        .btn_vert{
+            margin-top: 200px;
+        }
+        h2{
+            margin-top: 50px;
+        }
+    }
+
+}
+#sec_3{
+    display: flex;
+}
+#sec_4{
+    display: flex;
+}
+#sec_5{
+    display: flex;
+}
+#sec_6{
+    display: flex;
+    .bandeau{
+        width: 100%;
+        @include colonne(40px);
+    }
+}
+footer{
+    display: flex;
+}

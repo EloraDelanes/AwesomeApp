@@ -1,3 +1,189 @@
+body {
+  background-color: #353536;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto";
+  color: white;
+}
 
+p {
+  color: #616163;
+}
+
+.btn_degra {
+  background-image: linear-gradient(to right, #46C2FF, #BD11FA);
+  color: white;
+  border: none;
+  box-shadow: 40px 40px 40px 40px linear-gradient(to right, #46C2FF, #BD11FA);
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.btn_bnc {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.btn_vert {
+  background-color: rgba(3, 110, 73, 0.541);
+  color: #00EC98;
+  border: none;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.bandeau {
+  background-color: #39394075;
+}
+
+.navBar {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar ul li {
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+.navBar img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.navBar .t_logo {
+  margin-left: -600px;
+}
+.navBar a {
+  list-style: none;
+  color: white;
+}
+.navBar .nav-link_contact {
+  border: white solid 2px;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+}
+.header .gch_head {
+  padding: 20px;
+  flex-direction: row;
+  text-align: center;
+}
+.header .gch_head h1 {
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+.header .drt_head img {
+  width: 800px;
+  height: 500px;
+}
+
+#sec_1 {
+  display: flex;
+}
+#sec_1 .drt_s1 {
+  padding: 40px;
+  flex-direction: row;
+  text-align: center;
+}
+#sec_1 .drt_s1 h2 {
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+#sec_1 .gch_s1 {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+#sec_1 .gch_s1 .l1 {
+  margin-left: 10px;
+}
+#sec_1 .gch_s1 .l2 {
+  margin-right: 10px;
+}
+#sec_1 .gch_s1 .card_brand {
+  padding: 10px;
+}
+#sec_1 .gch_s1 .card_brand img {
+  width: 150px;
+  height: 120px;
+  background-color: #616163;
+  box-shadow: 10px 5px 5px #20202C;
+  border-radius: 5%;
+}
+
+#sec_2 {
+  display: flex;
+}
+#sec_2 .drt_s2 {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+  text-align: center;
+}
+#sec_2 .drt_s2 .l1 {
+  margin: 40px;
+}
+#sec_2 .drt_s2 .card_s2 {
+  padding-top: 20px;
+  width: 250px;
+  height: 350px;
+  color: white;
+  background-color: #616163;
+  box-shadow: 10px 5px 5px #20202C;
+  border-radius: 5%;
+  margin: 20px;
+}
+#sec_2 .drt_s2 .card_s2 p {
+  color: white;
+}
+#sec_2 .gch_s2_same {
+  padding: 40px;
+  flex-direction: row;
+  text-align: center;
+  margin: 80px;
+}
+#sec_2 .gch_s2_same .btn_vert {
+  margin-top: 200px;
+}
+#sec_2 .gch_s2_same h2 {
+  margin-top: 50px;
+}
+
+#sec_3 {
+  display: flex;
+}
+
+#sec_4 {
+  display: flex;
+}
+
+#sec_5 {
+  display: flex;
+}
+
+#sec_6 {
+  display: flex;
+}
+#sec_6 .bandeau {
+  width: 100%;
+  padding: 40px;
+  flex-direction: row;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */

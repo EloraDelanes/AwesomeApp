@@ -1,0 +1,5 @@
+@mixin  colonne ( $padd ) {
+    padding: $padd;
+    flex-direction: row;
+    text-align: center;
+}
